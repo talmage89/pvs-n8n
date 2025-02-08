@@ -61,8 +61,6 @@ services:
 
   n8n:
     <<: *shared
-    ports:
-      - 5678:5678
     environment:
       - N8N_HOST=automation.pixelvalleysupply.com
       - N8N_PROTOCOL=https
