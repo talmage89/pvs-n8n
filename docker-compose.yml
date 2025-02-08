@@ -75,8 +75,7 @@ services:
       - N8N_HOST=0.0.0.0
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
-      - N8N_WEBHOOK_URL=https://n8n.pixelvalleysupply.com
-      - N8N_WEBHOOK_TEST_URL=https://n8n.pixelvalleysupply.com
+      - N8N_EDITOR_BASE_URL=https://n8n.pixelvalleysupply.com
       - N8N_ENCRYPTION_KEY=${ENCRYPTION_KEY}
 
   n8n-worker:
