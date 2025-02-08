@@ -72,9 +72,9 @@ services:
     networks:
       - n8n-network
     environment:
-      - N8N_HOST=0.0.0.0
-      - N8N_PROTOCOL=http
-      - N8N_PORT=5678
+      - N8N_HOST=n8n.pixelvalleysupply.com
+      - N8N_PROTOCOL=https
+      - N8N_PORT=443
       - N8N_ENCRYPTION_KEY=${ENCRYPTION_KEY}
 
   n8n-worker:
